@@ -31,6 +31,7 @@ gem 'paper_trail', '~> 3.0.1'
 gem 'rails-observers'
 gem 'country_select', '~> 2.1.0'
 
+gem 'simple_captcha2', require: 'simple_captcha'
 gem 'simple_form', '3.2.0'
 gem 'slim-rails'
 gem 'sass-rails'
@@ -86,3 +87,6 @@ group :test do
   # but test-unit has been removed from ruby core since 2.2.0
   gem 'test-unit'
 end
+
+# Added at 2017-09-07 17:04:06 +0800 by root:
+gem "pusher", "~> 1.3"

@@ -1,5 +1,5 @@
 class Member < ActiveRecord::Base
-  acts_as_reader
+  #acts_as_reader
 
   has_many :orders
   has_many :accounts
